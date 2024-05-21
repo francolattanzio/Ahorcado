@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <header>
+        <h1>El ahorcado</h1>
+    </header>
+    <main>
+        <div>
+            <div id="para_el_ancho">
+                <div id="header_reglas">
+                    <h2 id="titulo_reglas">Reglas</h2>
+                </div>
+                <div id="cuadro_reglas">
+                    <ul id="lista_de_reglas">
+                        <li class="regla">Este es el clásico juego del ahorcado pero de una forma más competitiva.</li>
+                        <li class="regla">Antes que nada, debes ingresar tu nombre de usuario.</li>
+                        <li class="regla">Tienes que adivinar la palabra que se te muestra oculta a través de seleccionar las letras que la componen.</li>
+                        <li class="regla">El juego constará de 10 partidas, cada una con un máximo de 8 turnos.</li>
+                        <li class="regla">En cada partida comenzarás con 8 puntos, que irán disminuyendo a medida que falles cada letra.</li>
+                        <li class="regla">A medida que vayas jugando más partidas, se te irán sumando los puntos obtenidos en partidas anteriores.</li>
+                        <li class="regla">El máximo puntaje es de 80 puntos por juego, y tendrás todo el tiempo del mundo para adivinar cada palabra.</li>
+                        <li class="regla">Y si te esfuerzas lo suficiente, ¡Podrías quedar dentro del top 3 mejores jugadores de la historia!</li>
+                    </ul>
+                </div>
+                <div id="header_juego">
+                    <h2 id="titulo_juego">Juego</h2>
+                </div>
+                <div id="puestos">
+                    <h3 class="puesto" id="puesto1">Top 1: -</h3>
+                    <h3 class="puesto" id="puesto2">Top 2: -</h3>
+                    <h3 class="puesto" id="puesto3">Top 3: -</h3>
+                </div>
+                <div id="input_y_boton">
+                    <input type="text" id = "jugador" placeholder="Ingrese su nombre de usuario">
+                    <button id="comenzar_juego">Comenzar juego</button>
+                    <p id="advertencia">No olvides colocar tu nombre de usuario</p>
+                </div>
+                <div id="informacion">
+                    <p class="informacion_dentro" id="intentos_restantes">Te quedan - intentos</p>
+                    <p class="informacion_dentro" id="puntaje_total">Puntaje total: -</p>
+                </div>
+                <div id="imagen_y_letras">
+                    <div id="caja">
+                        <img id="imagen" src="ahorcados/ahorcado0.png" alt="foto0">
+                    </div>
+                    <p id="respuesta"></p>
+                    <div id="palabra_y_letras">
+                        <p id="palabra_oculta"></p>
+                        <div id="letras">
+                            <button class="letra_individual">a</button>
+                            <button class="letra_individual">b</button>
+                            <button class="letra_individual">c</button>
+                            <button class="letra_individual">d</button>
+                            <button class="letra_individual">e</button>
+                            <button class="letra_individual">f</button>
+                            <button class="letra_individual">g</button>
+                            <button class="letra_individual">h</button>
+                            <button class="letra_individual">i</button>
+                            <button class="letra_individual">j</button>
+                            <button class="letra_individual">k</button>
+                            <button class="letra_individual">l</button>
+                            <button class="letra_individual">m</button>
+                            <button class="letra_individual">n</button>
+                            <button class="letra_individual">o</button>
+                            <button class="letra_individual">p</button>
+                            <button class="letra_individual">q</button>
+                            <button class="letra_individual">r</button>
+                            <button class="letra_individual">s</button>
+                            <button class="letra_individual">t</button>
+                            <button class="letra_individual">u</button>
+                            <button class="letra_individual">v</button>
+                            <button class="letra_individual">w</button>
+                            <button class="letra_individual">x</button>
+                            <button class="letra_individual">y</button>
+                            <button class="letra_individual">z</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

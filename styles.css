@@ -1,0 +1,252 @@
+html{
+    background-color: #cccccc;
+    font-family: 'Coming Soon', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#titulo_reglas{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#header_reglas{
+    background-color: #90E0EF;
+    padding: 2%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#lista_de_reglas{
+    font-size: 1.4rem;
+    list-style-type: none;
+    text-align:justify;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#cuadro_reglas{
+    width: 40rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAF0F8;
+    border: none
+}
+
+#para_el_ancho{
+    max-width: 78rem;
+    margin: auto;
+    border: none
+}
+
+#imagen{
+	width: 60%;
+	height: 60%;
+}
+
+#caja {
+    margin: 3rem;
+    width: 25rem;
+    height: 30rem;
+    background-color: red;
+    overflow: hidden;
+    
+}
+
+#caja img {
+    width: 120%;
+    height: 140%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#palabra_oculta span {
+    font-size: 2rem;
+    border-bottom: 2px solid #000;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#comenzar_juego{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    padding: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 0;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #90E0EF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#comenzar_juego:hover{
+    background-color: #67cddf;
+}
+
+#jugador{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    margin: 2%;
+    width: 23rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#advertencia{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    width: 35rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#input_y_boton{
+    width: 40rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #CAF0F8;
+    max-width: 78rem;
+    margin: auto;
+    border: none
+}
+
+#titulo_juego{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#header_juego{
+    background-color: #90E0EF;
+    padding: 2%;
+}
+
+.puesto{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    padding: 0.5%;
+    margin: 2%;
+    border: 0;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #00B4D8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#puesto1:hover{
+    background-color: #ffc600;
+}
+
+#puesto2:hover{
+    background-color: #8A8D8F;
+}
+
+#puesto3:hover{
+    background-color: #CD7F32;
+}
+
+#puestos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    width: 40rem auto;
+    background-color: #CAF0F8;
+    max-width: 78rem;
+    margin: auto;
+    border: none
+}
+
+#informacion{
+    width: 40rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAF0F8;
+    border: none
+}
+
+.informacion_dentro{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin: 3%;
+    border: 0;
+    color: #000;
+    font-size: 1.7rem;
+}
+
+#imagen_y_letras{
+    width: 40rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAF0F8;
+    border: none
+}
+
+.letra_individual{
+    font-family: 'Coming Soon', cursive;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #90E0EF;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#letras{
+    flex-wrap: wrap;
+    width: 40rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #CAF0F8;
+    max-width: 20rem;
+    margin: auto;
+    border: none;
+}
+
+#palabra_y_letras{
+    margin: 3%;
+}
+
+.letra_individual:disabled{
+    color: #90E0EF;
+}
