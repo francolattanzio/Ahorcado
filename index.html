@@ -12,7 +12,7 @@
         <h1>El ahorcado</h1>
     </header>
     <main>
-        <div>
+        <div id="para_el_fondo">
             <div id="para_el_ancho">
                 <div id="header_reglas">
                     <h2 id="titulo_reglas">Reglas</h2>
@@ -46,13 +46,15 @@
                     <p class="informacion_dentro" id="intentos_restantes">Te quedan - intentos</p>
                     <p class="informacion_dentro" id="puntaje_total">Puntaje total: -</p>
                 </div>
+                <div id="oculto">
+                    <p id="palabra_oculta"></p>
+                </div>
                 <div id="imagen_y_letras">
                     <div id="caja">
                         <img id="imagen" src="ahorcados/ahorcado0.png" alt="foto0">
                     </div>
                     <p id="respuesta"></p>
                     <div id="palabra_y_letras">
-                        <p id="palabra_oculta"></p>
                         <div id="letras">
                             <button class="letra_individual">a</button>
                             <button class="letra_individual">b</button>
