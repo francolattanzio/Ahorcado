@@ -39,7 +39,6 @@ h1{
 }
 
 #para_el_ancho{
-    max-width: 78rem;
     margin: auto;
     border: none
 }
@@ -80,7 +79,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18%;
     padding: 0.5%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -101,7 +99,7 @@ h1{
     font-family: 'Coming Soon', cursive;
     display: flex;
     margin: 2%;
-    width: 30%;
+    width: 60%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -111,7 +109,6 @@ h1{
 #advertencia{
     font-family: 'Coming Soon', cursive;
     display: flex;
-    width: 35rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -119,10 +116,11 @@ h1{
 }
 
 #input_y_boton{
+    flex-direction: column;
     width: 40rem auto;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     background-color: #CAF0F8;
     max-width: 78rem;
     margin: auto;
@@ -263,4 +261,20 @@ h1{
 #para_el_fondo{
     background-color: #CAF0F8;
     border-radius: 1rem;
+}
+
+#cuadros_y_respuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#respuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
 }
