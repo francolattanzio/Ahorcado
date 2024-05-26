@@ -4,6 +4,7 @@ html{
 }
 
 h1{
+    flex: auto;
     text-align: center;
     font-size: 3rem;
 }
@@ -49,7 +50,8 @@ h1{
 }
 
 #caja {
-    margin: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 20rem;
     height: 20rem;
     overflow: hidden;
